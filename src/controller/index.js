@@ -8,5 +8,6 @@ const homepage = (req, res) => {
         <li>Take a list of Booked rooms = endpoint: /rooms/customer</li>
         <li>Create a new room = endpoint: /rooms/</li>
     <ul/>
-    <div/> `)
-}
+    <div/> `);
+};
+export default { homepage }

@@ -5,25 +5,25 @@ const Rooms = [
         room_id: 1,
         room_name: "Luxuary",
         booked_status: true,
-        price_for_1_hours: 8000,
+        price_for_1_hours: 8000
       },
       {
         room_id: 2,
         room_name: "Premium",
         booked_status: true,
-        price_for_1_hours: 6000,
+        price_for_1_hours: 6000
       },
       {
         room_id: 3,
         room_name: "FirstClass",
         booked_status: true,
-        price_for_1_hours: 4000,
+        price_for_1_hours: 4000
       },
       {
         room_id: 4,
         room_name: "Normal",
         booked_status: false,
-        price_for_1_hours: 2000,
+        price_for_1_hours: 2000
       }
 ]
 
