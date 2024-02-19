@@ -65,8 +65,9 @@ const BookedRooms = (req, res) =>
 {
     try
     {
+         
         let BookedRoom = [];
-        for (let i=o;i<Rooms.length;i++)
+        for (let i=0;i<Rooms.length;i++)
         {
             for(let j=0; j<Customer.length;j++)
             {
@@ -98,7 +99,7 @@ const allCustomer =(req,res)=>{
     try
     {
         let BookedRoom = [];
-        for (let i=o;i<Rooms.length;i++)
+        for (let i=0;i<Rooms.length;i++)
         {
             for(let j=0; j<Customer.length;j++)
             {
